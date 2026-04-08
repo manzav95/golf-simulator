@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="Golf icon">
+  <g fill="none" stroke="#30c272" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <!-- ground -->
+    <path d="M12 52h40" opacity="0.9" />
+
+    <!-- ball -->
+    <circle cx="24" cy="46" r="6" />
+    <path d="M22.2 44.3c1.2-1.2 2.4-1.2 3.6 0" opacity="0.55" />
+    <path d="M21.5 47.5c1.7 1.4 3.3 1.4 5 0" opacity="0.55" />
+
+    <!-- tee -->
+    <path d="M24 40v6" opacity="0.85" />
+
+    <!-- flag pole -->
+    <path d="M40 18v34" />
+    <!-- flag -->
+    <path d="M40 20c7 0 10 4 12 5-2 1-5 5-12 5" />
+  </g>
+</svg>
