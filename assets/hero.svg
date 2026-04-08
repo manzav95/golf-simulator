@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b120e"/>
+      <stop offset="1" stop-color="#070b09"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="70%" cy="30%" r="70%">
+      <stop offset="0" stop-color="#30c272" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#30c272" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="25%" cy="10%" r="60%">
+      <stop offset="0" stop-color="#86f7b6" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#86f7b6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e6fff0" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#86f7b6" stop-opacity="0.75"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#glow1)"/>
+  <rect width="1600" height="900" fill="url(#glow2)"/>
+
+  <!-- Simple sim bay abstract -->
+  <g filter="url(#shadow)" opacity="0.9">
+    <path d="M220 140h960l160 130v440l-210 150H220z" fill="#0a100d" stroke="rgba(255,255,255,0.10)" stroke-width="2"/>
+    <path d="M260 200h740l120 92v300l-170 120H260z" fill="#0b140f" stroke="rgba(255,255,255,0.09)" stroke-width="2"/>
+    <path d="M1040 260h240l44 32v220l-78 56h-206z" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.10)" stroke-width="2"/>
+    <rect x="1065" y="286" width="190" height="170" rx="16" fill="url(#screen)" opacity="0.85"/>
+    <rect x="1065" y="470" width="190" height="18" rx="9" fill="rgba(134,247,182,0.55)"/>
+  </g>
+
+  <!-- Turf -->
+  <path d="M0 740c260-50 460-50 780 0s620 70 820 40v120H0z" fill="#0b5f34" opacity="0.25"/>
+  <path d="M0 780c300-40 520-30 820 10s520 50 780 18v92H0z" fill="#30c272" opacity="0.14"/>
+</svg>

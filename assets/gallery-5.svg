@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b120e"/>
+      <stop offset="1" stop-color="#070b09"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="35%" cy="25%" r="70%">
+      <stop offset="0" stop-color="#30c272" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#30c272" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <rect width="1200" height="800" fill="url(#glow)"/>
+  <rect x="160" y="170" width="880" height="460" rx="30" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.12)" stroke-width="2"/>
+  <rect x="210" y="220" width="780" height="360" rx="24" fill="rgba(0,0,0,0.28)" stroke="rgba(255,255,255,0.10)" stroke-width="2"/>
+  <text x="250" y="280" fill="rgba(134,247,182,0.92)" font-family="ui-sans-serif, system-ui" font-size="34" font-weight="800">
+    Tournament
+  </text>
+  <g font-family="ui-sans-serif, system-ui" font-size="24" font-weight="700" fill="rgba(255,255,255,0.82)">
+    <text x="250" y="340">1. Team A</text>
+    <text x="820" y="340" fill="rgba(255,255,255,0.90)">-6</text>
+    <text x="250" y="390">2. Team B</text>
+    <text x="820" y="390" fill="rgba(255,255,255,0.90)">-4</text>
+    <text x="250" y="440">3. Team C</text>
+    <text x="820" y="440" fill="rgba(255,255,255,0.90)">-2</text>
+    <text x="250" y="490">4. Team D</text>
+    <text x="820" y="490" fill="rgba(255,255,255,0.90)">+1</text>
+  </g>
+  <rect x="250" y="520" width="700" height="10" rx="5" fill="rgba(255,255,255,0.10)"/>
+  <rect x="250" y="520" width="420" height="10" rx="5" fill="rgba(134,247,182,0.55)"/>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b120e"/>
+      <stop offset="1" stop-color="#070b09"/>
+    </linearGradient>
+    <radialGradient id="g1" cx="65%" cy="20%" r="70%">
+      <stop offset="0" stop-color="#86f7b6" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#86f7b6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="g2" cx="20%" cy="40%" r="65%">
+      <stop offset="0" stop-color="#30c272" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#30c272" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <rect width="1200" height="800" fill="url(#g1)"/>
+  <rect width="1200" height="800" fill="url(#g2)"/>
+  <rect x="130" y="190" width="940" height="420" rx="30" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.12)" stroke-width="2"/>
+  <rect x="190" y="240" width="820" height="260" rx="24" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.10)" stroke-width="2"/>
+  <!-- silhouettes -->
+  <g opacity="0.85">
+    <circle cx="440" cy="420" r="34" fill="rgba(255,255,255,0.18)"/>
+    <rect x="410" y="454" width="60" height="120" rx="26" fill="rgba(255,255,255,0.16)"/>
+    <circle cx="600" cy="390" r="36" fill="rgba(255,255,255,0.20)"/>
+    <rect x="568" y="426" width="64" height="152" rx="28" fill="rgba(255,255,255,0.18)"/>
+    <circle cx="770" cy="420" r="32" fill="rgba(255,255,255,0.16)"/>
+    <rect x="742" y="452" width="56" height="120" rx="26" fill="rgba(255,255,255,0.14)"/>
+  </g>
+  <path d="M0 680c260-50 490-46 760 4s310 42 440 18v98H0z" fill="#30c272" opacity="0.12"/>
+</svg>
